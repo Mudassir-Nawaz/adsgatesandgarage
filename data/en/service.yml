@@ -1,0 +1,61 @@
+########################### doorss ############################
+doors:
+  # doors item loop
+  - title : "Types of Garage Doors"
+    icon : "ti-desktop" # themify icon pack: https://themify.me/themify-icons
+    content : "We offer a wide variety of garage door styles and colors to fit your individual taste and needs.  The styles of garage doors we offer include metal, wood, fiberglass or vinyl, composite, and glass.  Ask us about any custom ideas you have, or you have seen."
+    
+  # doors item loop
+  - title : "Garage Door Opener"
+    icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
+    content : "Upgrade to a stylish, energy-efficient garage door opener.  We provide a large selection of quality openers.  Choose from a variety of styles from trusted manufacturers like Amarr Doors and LiftMaster.  Tired of lost keys?? Upgrade your current system to add a keypad entry and never worry about getting locked out again."
+    
+  # doors item loop
+  - title : "Maintenance and Safety Inspections"
+    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
+    content : "Maintenance is a key requirement of garage door care.  You depend on your garage door and opener on a daily basis, so to make sure that it will function properly for years to come, you need a regular maintenance plan.  We offer yearly maintenance, in order to extend your garage door lifespan, avoid emergency door repairs, and improve the safety of your family.  We also repair and replace broken springs, rollers, cables, sensors, openers, and doors."
+    
+
+########################### doorss ############################
+gates:
+  # doors item loop
+  - title : "Types of Gates"
+    icon : "ti-desktop" # themify icon pack: https://themify.me/themify-icons
+    content : "We offer custom gates for your driveway, backyard access, front patio, front yard, apartment building, housing development, or business complex, in several different finishes and functions, including iron, metal, steel, wood, and wrought iron, in a swing arm, slide, or telescopic gate, to meet your needs and your style."
+    
+  # doors item loop
+  - title : "Swing Arm Operator"
+    icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
+    content : "A swing arm operator has a box that sits off to the side and has an arm extending to the gate.  A hydraulic piston or jackscrew with piston allow opening and closing the gate"
+    
+  # doors item loop
+  - title : "Slide Gate Operator"
+    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
+    content : "A single slide gate can slide on wheels to the left or to the right.  A dual slide gate is usually long and consists of two gates that meet in the middle: One side slides to the left and the other to the right."
+    
+  # doors item loop
+  - title : "Telescopic Gate"
+    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
+    content : "A telescopic gate allows sliding gates to be installed in an area where space is limited while the gate is in the open position.  The back gate panel is driven by a motor, like a single panel sliding gate is.  The telescopic drive mechanism drives the front gate from the back using a wire cable that wraps around the bottom rail connecting to the ground at one end, and the front gate at the other end."
+
+
+######################### pricing #####################################
+pricing:
+  enable : false
+  # pricing item comes from "pricing.yml" file
+
+######################## contact us steps #################################
+steps:
+  enable : true
+  step:
+    # step loop
+    - title : "Discuss with us"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+
+    # step loop
+    - title : "Choose your perfect plan"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart" 
+      
+    # step loop
+    - title : "Start your project"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"

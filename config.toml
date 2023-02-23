@@ -1,0 +1,204 @@
+######################## default configuration ####################
+baseURL = "https://mudassir-nawaz.github.io/"
+title = "ADS Garage Doors And Gates"
+theme = "enov-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "enov" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+######################### Plugins #############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify/css/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+  
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "HOME"
+URL = "/"
+weight = 1
+
+[[menu.main]]
+name = "SERVICES"
+URL = "/service/"
+weight = 2
+
+[[menu.main]]
+name = "GALLERY OF GARAGE DOORS"
+URL = "/gallery-of-garage-doors/"
+weight = 3
+
+[[menu.main]]
+name = "GALLERY OF GATES"
+URL = "/gallery-of-gates/"
+weight = 4
+
+
+[[menu.main]]
+weight = 9
+name = "MORE"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "MORE"
+  name = "BLOG"
+  URL = "/blog/"
+
+  # [[menu.main]]
+  # parent = "MORE"
+  # name = "REVIEWS"
+  # URL = "/reviews/"
+
+  [[menu.main]]
+  parent = "MORE"
+  name = "PRIVACY POLICY"
+  URL = "/privacy-policy/"
+
+  
+[[menu.main]]
+name = "CONTACT US"
+URL = "/contact/"
+weight = 6
+
+# footer menu
+[[menu.footer]]
+name = "ABOUT"
+URL = "#"
+weight = 2
+
+[[menu.footer]]
+name = "BLOG"
+URL = "/blog/"
+weight = 3
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# top header
+top_header = true
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact info
+# address = "9567 Turner Trace Apt. BC C3G8A4"
+phone = "702-595-2717"
+email = "info@adsdoorsandgates.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# search
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "get a quote"
+link = "contact/"
+
+# google map
+[params.map]
+enable = false
+
+######################### Clients logo ################################
+[[params.clients_logo]]
+logo = "images/about/key-vision1.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision2.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision3.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision4.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision3.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision5.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision2.png"
+
+[[params.clients_logo]]
+logo = "images/about/key-vision1.png"
+
+#################### social icon ######################################
+[[params.social]]
+name = "Facebook"
+icon = "ti-facebook"
+link = "https://www.facebook.com/109165921636578"
+
+[[params.social]]
+name = "Instagram"
+icon = "ti-instagram"
+link = "https://www.instagram.com/adsgaragedoorandgates/"
+
+[[params.social]]
+name = "Vimeo"
+icon = "ti-vimeo-alt"
+link = "#"
+
+[[params.social]]
+name = "Github"
+icon = "ti-github"
+link = "#"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+languageCode = 'en-us'
+title = 'My New Hugo Site'

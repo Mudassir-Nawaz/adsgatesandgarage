@@ -1,0 +1,127 @@
+################################## Banner #################################
+banner:
+  enable : true
+  subtitle : "WELCOME"
+  title : "Sophistication in Garage Doors and Gates"
+
+  # solid button
+  button_solid:
+    enable : true
+    label : "Get a quote"
+    link : "/contact/"
+
+  # border button
+  button_border:
+    enable : false
+    label : "Discover Enov"
+    link : "service/"
+
+######################## Banner call to action ############################
+banner_cta:
+  enable : false
+  title : "Crafting visually stunning memorable experiences for web."
+  content : "Magni perspiciatis sequi, molestias dignissimos numquam placeat eveniet nobis rerum eos, facilis minus, est illo adipisci soluta dolores quisquam, praesentium ab corrupti!"
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about/"
+
+########################## feature ########################################
+feature:
+  enable : true
+  title : "Why Choose Our Gates and Garage Doors?"
+  feature_item:
+    # feature item loop
+    - title : "Established in 1998."
+      icon : "ti-wand" # icon pack : https://themify.me/themify-icons
+      content : "We are extremely passionate about the work we do.  With more than 23 years of experience, both commercial and residential, you can depend on us to provide a high-quality service at a fair and honest price.  We understand that the future of our business depends upon our reputation and that is why customer service is, by far, our highest priority.  If you are looking for a professional you can trust, please call today to schedule."
+      
+    # feature item loop
+    # - title : "Awarded licensed company"
+    #   icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+    #   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
+
+######################## About #######################################
+about:
+  enable : false
+  image : "images/about/home-8.jpg"
+  title : "What We Do"
+  # content : "We provide consulting services in the area of IFRS and management reporting, helping companies
+            # to reach their highest level. We optimize business processes, making them easier."
+  services:
+        - "Garage Door Install"
+        - "Garage Door Repair"
+        - "Spring Installation and Repair"
+        - "Roller Installation and Repair"          
+        - "Safety Sensor Installation"          
+        - "Opener Installation"          
+        - "Opener Repair"          
+        - "Cable Repair"          
+        - "Remote Replacement"          
+        - "Gate Install"          
+        - "Gate repair"          
+        - "Gate Fabrication"          
+        - "Welding"
+        - "Yearly Maintenance"
+  button:
+    enable : true
+    label : "Get started"
+    link : "pricing/"
+
+##################### Funfacts ######################################
+funfacts:
+  enable : false
+
+
+######################### Service #####################################
+service:
+  enable : false
+  title : "ABOUT US"
+  # content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  # service item comes from "data/**/service.yml" file
+
+######################### pricing #####################################
+pricing:
+  enable : true
+  # pricing item comes from "data/**/pricing.yml" file
+
+############################# Team ##################################
+team:
+  enable: true
+  title : "Reviews"
+  # content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  team_member:
+    ################### team member loop
+    - name : "Barbara H."
+      image : "images/team/team-1.jpg"
+      designation : '"The service repairman was right on our key managemen..."'
+      link : "https://www.yelp.com/biz/ads-doors-and-gates-las-vegas"
+          
+    ################### team member loop
+    - name : "Gerry W."
+      image : "images/team/team-2.jpg"
+      designation : '"We recently had our Lift Master garage door opener replaced...."'
+      link : "https://www.yelp.com/biz/ads-doors-and-gates-las-vegas"
+          
+    ################### team member loop
+    - name : "Jacqui C."
+      image : "images/team/team-3.jpg"
+      designation : '"My garage door opener was on its last leg and over the long..."'
+      link : "https://www.yelp.com/biz/ads-doors-and-gates-las-vegas"
+          
+
+
+################################### promo video ##########################
+promo_video:
+  enable : false
+  title : "See How we work!"
+  video_thumbnail : "images/bg/contact-bg-min-1.jpg"
+  video_link : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  content: "Our mission is to produce the highest quality work for everyclient, on every project"
+
+############################## blog ####################################
+blog:
+  enable: true
+  title : "Latest News & Articles"
+  content : "Don’t just take our words for it. Our clients are our biggest supporters. Would you like to know what they think about us?"
+  # blog post comes from "content/**/blog" folder.

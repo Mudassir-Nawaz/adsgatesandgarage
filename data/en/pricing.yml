@@ -1,0 +1,61 @@
+########################## feature ########################################
+feature:
+  enable : true
+
+########################## pricing ############################
+pricing:
+  enable : true
+  title : "About Us"
+  # content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  pricing_table:
+    # pricing table loop
+    - pack : "What We Do"
+      # duration : "User / Month"
+      # price : "00"
+      # highlight : false
+      services:
+        - "Garage Door Install"
+        - "Garage Door Repair"
+        - "Spring Installation and Repair"
+        - "Roller Installation and Repair"          
+        - "Safety Sensor Installation"          
+        - "Opener Installation"          
+        - "Opener Repair"          
+        - "Cable Repair"          
+        - "Remote Replacement"          
+        - "Gate Install"          
+        - "Gate repair"          
+        - "Gate Fabrication"          
+        - "Welding"
+        - "Yearly Maintenance"
+      # button:
+      #   label : "Join Now"
+      #   link : "#"
+        
+    # pricing table loop
+    # - pack : "Basic"
+    #   duration : "User / Month"
+    #   price : "29"
+    #   highlight : true
+    #   services:
+    #     - "Up to 1 User"
+    #     - "Max 100 Item"
+    #     - "500 Queries"
+    #     - "Basic Statistics"
+    #   button:
+    #     label : "Join Now"
+    #     link : "#"
+        
+    # pricing table loop
+    - pack : "Licensing Information"
+      duration : "User / Month"
+      price : "59"
+      # highlight : false
+      services:
+        - "State License # NV20201783985"
+        - "Contractor License # 0087165"
+        - "Contractor License # 0087166"
+        - "Bid Limit: $500,000"
+      button:
+        label : "Join Now"
+        link : "#"
