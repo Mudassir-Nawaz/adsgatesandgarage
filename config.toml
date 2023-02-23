@@ -66,12 +66,12 @@ URL = "/service/"
 weight = 2
 
 [[menu.main]]
-name = "GALLERY OF GARAGE DOORS"
+name = "GARAGE DOORS"
 URL = "/gallery-of-garage-doors/"
 weight = 3
 
 [[menu.main]]
-name = "GALLERY OF GATES"
+name = "GATES"
 URL = "/gallery-of-gates/"
 weight = 4
 
@@ -98,7 +98,7 @@ hasChildren = true
 
   
 [[menu.main]]
-name = "CONTACT US"
+name = "CONTACT"
 URL = "/contact/"
 weight = 6
 
